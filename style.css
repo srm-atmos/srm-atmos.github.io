@@ -137,3 +137,8 @@ header h1{
 ```
 
 }
+.logo{
+    width:180px;
+    height:auto;
+    margin-bottom:20px;
+}
