@@ -212,13 +212,19 @@ footer{
 @media screen and (max-width:768px){
 
     nav{
+        display:flex;
+        overflow-x:auto;
+        white-space:nowrap;
         padding:10px;
-        text-align:left;
+        justify-content:flex-start;
+        -webkit-overflow-scrolling:touch;
     }
 
     nav a{
+        display:inline-flex !important;
+        flex:0 0 auto;
+        margin:0 10px;
         font-size:14px;
-        margin:0 8px;
     }
 
     .container{
@@ -236,6 +242,8 @@ footer{
         width:130px;
         height:160px;
     }
+
+
 
     .card{
         padding:15px;
