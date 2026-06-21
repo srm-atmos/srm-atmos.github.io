@@ -40,7 +40,7 @@
 
     <h1>Datasets</h1>
 
-    <p>SRM-ATMOS | Atmospheric Data Resources</p>
+    <p>SRM-ATMOS | Atmospheric Science Research Laboratory</p>
 
 </header>
 
@@ -50,10 +50,10 @@
 
 <div class="card">
 
-<h2>Overview</h2>
+<h2>Dataset Repository</h2>
 
 <p>
-SRM-ATMOS utilizes a wide range of observational, satellite, reanalysis, climate model and numerical weather prediction datasets for research on weather and climate extremes, lightning science, atmospheric electricity, satellite meteorology and artificial intelligence applications.
+SRM-ATMOS utilizes a wide range of atmospheric, climate, lightning, satellite and numerical weather prediction datasets for research on weather and climate extremes, lightning science, climate variability, atmospheric electricity and artificial intelligence applications.
 </p>
 
 </div>
@@ -62,39 +62,90 @@ SRM-ATMOS utilizes a wide range of observational, satellite, reanalysis, climate
 
 <section class="section">
 
-<h2>Reanalysis Datasets</h2>
-
-<div class="grid">
-
 <div class="card">
 
-<h3>ERA5 Reanalysis</h3>
+<h2>Atmospheric and Climate Datasets</h2>
 
-<p>
-Global atmospheric reanalysis dataset from ECMWF providing hourly meteorological variables at high spatial resolution.
-</p>
+<table>
 
-</div>
+<tr>
+<th>Dataset</th>
+<th>Description</th>
+<th>Resolution</th>
+<th>Access</th>
+</tr>
 
-<div class="card">
+<tr>
+<td>ERA5 Reanalysis</td>
+<td>Global atmospheric reanalysis from ECMWF</td>
+<td>0.25° Hourly</td>
+<td><a href="https://cds.climate.copernicus.eu/" target="_blank">Visit</a></td>
+</tr>
 
-<h3>NCEP-FNL Analysis</h3>
+<tr>
+<td>GPM IMERG</td>
+<td>Global precipitation measurements</td>
+<td>0.1° Half-hourly</td>
+<td><a href="https://gpm.nasa.gov/data/imerg" target="_blank">Visit</a></td>
+</tr>
 
-<p>
-Global analysis data widely used for WRF model initialization and atmospheric diagnostics.
-</p>
+<tr>
+<td>IMD Gridded Rainfall</td>
+<td>India Meteorological Department rainfall data</td>
+<td>0.25° Daily</td>
+<td><a href="https://imdpune.gov.in/" target="_blank">Visit</a></td>
+</tr>
 
-</div>
+<tr>
+<td>WWLLN Lightning</td>
+<td>Worldwide Lightning Location Network</td>
+<td>Global Real-time</td>
+<td><a href="https://wwlln.net/" target="_blank">Visit</a></td>
+</tr>
 
-<div class="card">
+<tr>
+<td>INSAT Satellite Data</td>
+<td>Indian geostationary meteorological satellite observations</td>
+<td>15–30 min</td>
+<td><a href="https://www.mosdac.gov.in/" target="_blank">Visit</a></td>
+</tr>
 
-<h3>MERRA-2</h3>
+<tr>
+<td>CMIP6 Climate Models</td>
+<td>Global climate model simulations</td>
+<td>Model Dependent</td>
+<td><a href="https://esgf-node.llnl.gov/search/cmip6/" target="_blank">Visit</a></td>
+</tr>
 
-<p>
-NASA atmospheric reanalysis dataset for climate and aerosol studies.
-</p>
+<tr>
+<td>NCEP FNL Analysis</td>
+<td>Global analysis fields used for WRF initialization</td>
+<td>1° 6-hourly</td>
+<td><a href="https://rda.ucar.edu/datasets/ds083.2/" target="_blank">Visit</a></td>
+</tr>
 
-</div>
+<tr>
+<td>GFS Forecast Data</td>
+<td>Global Forecast System outputs</td>
+<td>0.25° Forecast</td>
+<td><a href="https://www.ncei.noaa.gov/products/weather-climate-models/global-forecast" target="_blank">Visit</a></td>
+</tr>
+
+<tr>
+<td>MODIS</td>
+<td>Satellite observations of atmosphere, land and oceans</td>
+<td>250 m–1 km</td>
+<td><a href="https://modis.gsfc.nasa.gov/data/" target="_blank">Visit</a></td>
+</tr>
+
+<tr>
+<td>MERRA-2</td>
+<td>NASA atmospheric reanalysis and aerosol products</td>
+<td>0.5° × 0.625°</td>
+<td><a href="https://disc.gsfc.nasa.gov/" target="_blank">Visit</a></td>
+</tr>
+
+</table>
 
 </div>
 
@@ -102,249 +153,33 @@ NASA atmospheric reanalysis dataset for climate and aerosol studies.
 
 <section class="section">
 
-<h2>Rainfall Datasets</h2>
-
-<div class="grid">
-
 <div class="card">
 
-<h3>IMD Gridded Rainfall</h3>
+<h2>Datasets Frequently Used at SRM-ATMOS</h2>
 
-<p>
-Daily gridded rainfall observations over India for climate and extreme rainfall studies.
-</p>
+<ul>
 
-</div>
+<li>ERA5 Reanalysis</li>
 
-<div class="card">
+<li>GPM IMERG Rainfall</li>
 
-<h3>GPM IMERG</h3>
+<li>WWLLN Lightning Data</li>
 
-<p>
-High-resolution satellite precipitation estimates from the Global Precipitation Measurement mission.
-</p>
+<li>INSAT Satellite Observations</li>
 
-</div>
+<li>IMD Gridded Rainfall</li>
 
-<div class="card">
+<li>CMIP6 Climate Simulations</li>
 
-<h3>TRMM</h3>
+<li>NCEP FNL Analysis</li>
 
-<p>
-Tropical Rainfall Measuring Mission precipitation observations for historical rainfall analysis.
-</p>
+<li>GFS Forecast Data</li>
 
-</div>
+<li>MODIS Satellite Products</li>
 
-</div>
+<li>MERRA-2 Reanalysis</li>
 
-</section>
-
-<section class="section">
-
-<h2>Satellite Datasets</h2>
-
-<div class="grid">
-
-<div class="card">
-
-<h3>INSAT-3D / INSAT-3DR</h3>
-
-<p>
-Indian geostationary satellite observations for cloud monitoring, convection tracking and weather analysis.
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>MODIS</h3>
-
-<p>
-Satellite observations of land, atmosphere, aerosols and cloud properties.
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>Sentinel Missions</h3>
-
-<p>
-Earth observation datasets supporting environmental and atmospheric studies.
-</p>
-
-</div>
-
-</div>
-
-</section>
-
-<section class="section">
-
-<h2>Lightning Datasets</h2>
-
-<div class="grid">
-
-<div class="card">
-
-<h3>WWLLN</h3>
-
-<p>
-Worldwide Lightning Location Network data for lightning climatology and severe weather studies.
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>NRSC-LDSN</h3>
-
-<p>
-Lightning Detection Sensor Network observations for regional lightning monitoring over India.
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>Satellite Lightning Products</h3>
-
-<p>
-Lightning observations derived from satellite-based monitoring systems.
-</p>
-
-</div>
-
-</div>
-
-</section>
-
-<section class="section">
-
-<h2>Climate Model Datasets</h2>
-
-<div class="grid">
-
-<div class="card">
-
-<h3>CMIP6</h3>
-
-<p>
-Global climate model simulations for climate change and future projection studies.
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>CORDEX</h3>
-
-<p>
-Regional climate model datasets for downscaled climate assessments.
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>IPCC Assessment Data</h3>
-
-<p>
-Climate projections and supporting datasets used for climate impact studies.
-</p>
-
-</div>
-
-</div>
-
-</section>
-
-<section class="section">
-
-<h2>Numerical Model Datasets</h2>
-
-<div class="grid">
-
-<div class="card">
-
-<h3>WRF Simulations</h3>
-
-<p>
-High-resolution weather simulations generated using the WRF-ARW modelling framework.
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>WRF-ELEC Outputs</h3>
-
-<p>
-Lightning and atmospheric electricity simulations for thunderstorm studies.
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>Forecast Products</h3>
-
-<p>
-Research and experimental weather forecast datasets generated at SRM-ATMOS.
-</p>
-
-</div>
-
-</div>
-
-</section>
-
-<section class="section">
-
-<h2>Laboratory Observation Datasets</h2>
-
-<div class="grid">
-
-<div class="card">
-
-<h3>Automatic Weather Station</h3>
-
-<p>
-Surface meteorological observations including temperature, humidity, pressure, rainfall and wind.
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>Aethalometer Observations</h3>
-
-<p>
-Black carbon aerosol measurements for air quality and climate research.
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>Sun Photometer Data</h3>
-
-<p>
-Atmospheric aerosol optical depth measurements.
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>LIDAR Measurements</h3>
-
-<p>
-Atmospheric boundary layer and aerosol profile observations.
-</p>
-
-</div>
+</ul>
 
 </div>
 
@@ -360,23 +195,23 @@ Atmospheric boundary layer and aerosol profile observations.
 
 <li>Extreme Rainfall Analysis</li>
 
-<li>Flood and Drought Assessment</li>
+<li>Weather and Climate Extremes</li>
 
-<li>Lightning Hazard Prediction</li>
+<li>Lightning Climatology</li>
 
-<li>Thunderstorm Studies</li>
+<li>Atmospheric Electricity Studies</li>
 
-<li>Atmospheric Electricity Research</li>
+<li>Thunderstorm Research</li>
 
-<li>Weather Forecast Verification</li>
+<li>Numerical Weather Prediction</li>
 
-<li>Climate Variability Assessment</li>
+<li>WRF Model Simulations</li>
 
-<li>Climate Change Impact Studies</li>
-
-<li>Artificial Intelligence Applications</li>
+<li>Climate Change Assessment</li>
 
 <li>Satellite Meteorology</li>
+
+<li>Physics-Informed Artificial Intelligence</li>
 
 </ul>
 
@@ -388,45 +223,11 @@ Atmospheric boundary layer and aerosol profile observations.
 
 <div class="card">
 
-<h2>Data Policy</h2>
+<h2>Data Usage Policy</h2>
 
 <p>
-SRM-ATMOS follows the data usage policies of the respective data providers. Users are encouraged to cite the original data sources when using publicly available datasets.
+Users are requested to acknowledge and cite the original data providers and agencies when utilizing these datasets for research, publications and educational activities. Please refer to the respective dataset portals for licensing and usage guidelines.
 </p>
-
-<p>
-Research datasets generated within SRM-ATMOS may be made available for collaborative academic research upon request.
-</p>
-
-</div>
-
-</section>
-
-<section class="section">
-
-<h2>Dataset Categories</h2>
-
-<div class="grid">
-
-<div class="card">
-<h2>3+</h2>
-<p>Reanalysis Datasets</p>
-</div>
-
-<div class="card">
-<h2>5+</h2>
-<p>Satellite Products</p>
-</div>
-
-<div class="card">
-<h2>3+</h2>
-<p>Climate Model Archives</p>
-</div>
-
-<div class="card">
-<h2>10+</h2>
-<p>Research Applications</p>
-</div>
 
 </div>
 
